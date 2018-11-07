@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: blue;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+  width: 1350px;
+  margin: 0 auto;
+}
+
+#logo {
+  float: left;
+  height: 100px;
+  width: auto;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+#thoughtBubble {
+  height: 400px;
+  width: 500px;
+  background-image: url("./assets/thinking-bubble-blue.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: right;
+  clear: right;
+  margin-right: 300px;
+  margin-top: -35px;
+}
+
+#dog {
+  /* float: left;
+  clear: left; */
+  width: 600px;
+  height: 600px;
+  background-image: url("./assets/Dog.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: 0;
+}
+
+.swatch-wrapper {
+  width: 400px;
+  height: 50px;
+  float: right;
+  margin-left: 600px;
+  margin-right: -40px;
+}
+
+.color-swatch {
+  transition: transform 100ms;
+  width: 50px;
+  height: 50px;
+  border: 3px white solid;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.color-swatch:hover {
+  transform: scale(1.2);
+}
+
+.color-swatch.selected {
+  border: 6px white solid;
+}
+
+#blue {
+  background-color: #3086F7;
+}
+
+#teal {
+  background-color: #54c5d4;
+}
+
+#magenta {
+  background-color: #DB35B0;
+}
+
+#green {
+  background-color: #54B836;
+}
+
+#orange {
+  background-color: #F39837;
+}
+
+#red {
+  background-color: #C7292D;
+}
+
+.description {
+  float: right;
+  color: white;
+  font-family: sans-serif;
+  line-height: 18px;
+  margin-right: -40px;
+}
+
+.description p span {
+  font-weight: bold;
+}
+
+.description p:first-child {
+  font-size: 18px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  color: #797979;
+  background-color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#deal {
+  float: right;
+  clear: right;
+  width: 250px;
+  margin-top: 110px;
+  margin-right: 50px;
+}
+
