@@ -10,7 +10,8 @@ body {
 }
 
 body {
-  background-color: blue;
+  background: url("./assets/background.png");
+  background-size: cover;
 }
 
 .container {
@@ -29,24 +30,45 @@ body {
 }
 
 #thoughtBubble {
-  height: 400px;
-  width: 500px;
-  background-image: url("./assets/thinking-bubble-blue.png");
-  background-position: center top;
+  height: 326px;
+  width: 490px;
+  background-image: url("./assets/thought-bubbles.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 978px ;
   float: right;
   clear: right;
   margin-right: 300px;
   margin-top: -35px;
 }
 
+#thoughtBubble.blue {
+  background-position: 0px 0px;
+}
+
+#thoughtBubble.green {
+  background-position: 0px -319px;
+}
+
+#thoughtBubble.magenta {
+  background-position: 0px -638px;
+}
+
+#thoughtBubble.orange {
+  background-position: -489px 0px;
+}
+
+#thoughtBubble.red {
+  background-position: -489px -319px;
+}
+
+#thoughtBubble.teal {
+  background-position: -489px -638px;
+}
+
 #dog {
-  /* float: left;
-  clear: left; */
   width: 600px;
   height: 600px;
-  background-image: url("./assets/Dog.png");
+  background-image: url("./assets/main-dog.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -58,8 +80,7 @@ body {
   width: 400px;
   height: 50px;
   float: right;
-  margin-left: 600px;
-  margin-right: -40px;
+  margin: 60px -40px 0 600px;
 }
 
 .color-swatch {
