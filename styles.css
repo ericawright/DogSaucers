@@ -30,7 +30,7 @@ body {
 }
 
 #thoughtBubble {
-  height: 326px;
+  height: 319px;
   width: 490px;
   background-image: url("./assets/thought-bubbles.png");
   background-repeat: no-repeat;
@@ -156,5 +156,17 @@ button {
   width: 250px;
   margin-top: 110px;
   margin-right: 50px;
+}
+
+.footer {
+  background-color: white;
+  width: 100%;
+  height: 200px;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-contents {
+  width: 1200px;
 }
 
