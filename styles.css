@@ -7,6 +7,7 @@ body {
   height: 100%;
   width: 100%;
   margin: 0;
+  font-family: sans-serif;
 }
 
 body {
@@ -127,7 +128,6 @@ body {
 .description {
   float: right;
   color: white;
-  font-family: sans-serif;
   line-height: 18px;
   margin-right: -40px;
 }
@@ -197,7 +197,6 @@ button {
   text-decoration: none;
   text-align: center;
   font-size: 15px;
-  font-family: sans-serif;
   line-height: 25px;
   padding: 10px 15px;
   font-weight: bold;
